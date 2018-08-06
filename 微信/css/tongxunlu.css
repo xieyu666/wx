@@ -1,0 +1,36 @@
+::-webkit-scrollbar{
+    display: none
+}
+
+.txl-iteam{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: white;
+    border-bottom: lightgray 1px solid;
+
+}
+.txl-iteam-left{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txl-iteam-left-a{
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+}
+.txl-iteam-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-left: 5px;
+}
+.txl-zimu{
+    width: 100%;
+    margin-left: 10px;
+    border-bottom: lightgray 1px solid;
+}
